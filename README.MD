@@ -44,14 +44,6 @@ Create a container using:
 docker run --name container-name -p 80:80 -d -v /$(pwd):/code image-name
 ```
 
-### Before you clone this Repo
-
-If you want to use this repo, there's a python project called CookieCutter that cna download all of these files for you. You need to first pip install and then download the files providing this project's github url.
-
-```
-pip install pipx
-pipx cookiecutter gh:audreyfeldroy/GuiMendes-BR/dev-env
-```
 
 ### Prerequisites
 
